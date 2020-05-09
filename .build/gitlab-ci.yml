@@ -24,7 +24,7 @@ before_script:
 release:
   rules:
     - if: $RELEASE != null
-  # testing mirror 2
+  # testing mirror 4
   script:
     - git config --global user.email "jrnl.bot@gmail.com"
     - git config --global user.name "Jrnl Bot"
